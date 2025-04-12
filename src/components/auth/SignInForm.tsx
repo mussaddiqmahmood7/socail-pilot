@@ -13,6 +13,7 @@ function SignInForm() {
         <div className='flex flex-col gap-3 w-full'>
           <div>Password</div>
           <input className='w-full rounded-2xl border p-2' placeholder='password'/>
+          <Link href='/forgot-password' className='text-blue-500 text-end'>Forgot Password</Link>
         </div>
        <Link href='/' className='w-full rounded-2xl p-2 font-semibold text-white bg-gray-800 text-center'>Sign in</Link>
     </div>
