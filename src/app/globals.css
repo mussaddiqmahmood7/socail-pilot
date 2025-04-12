@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+@theme{
+  --color-brandColor: #00B1EF;
+}
+
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -11,6 +16,7 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
+
 
 @media (prefers-color-scheme: dark) {
   :root {
