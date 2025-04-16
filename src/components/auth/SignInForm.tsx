@@ -4,7 +4,7 @@ import React from 'react'
 function SignInForm() {
   return (
     <div className='max-w-md flex flex-col gap-5 w-full'>
-        <div className='text-2xl text-gray-800 font-semibold'>Sign in to SocailPilot</div>
+        <div className='text-2xl text-gray-800 font-semibold'>Sign in to PostGenius</div>
         <div className='text-gray-800'>New user? <Link href='/sign-up' className='text-blue-500'>Create an account</Link></div>
         <div className='flex flex-col gap-3 w-full'>
           <div>Email</div>
